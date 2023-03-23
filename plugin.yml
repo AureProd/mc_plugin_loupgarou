@@ -1,0 +1,22 @@
+
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+name: loup_garou
+version: 1.0
+author: AureProd
+main: fr.aureprod.loupgarou.Main
+api-version: 1.13
+commands:
+  interface:
+    description: §6Ceci est la commande pour le loup garou
+    permission: loupgarou.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+permissions:
+  loupgarou.use:
+    default: op
+    description: §2Autorise utilisation de la commande
